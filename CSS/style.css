@@ -1,3 +1,13 @@
+.fondoBody{
+
+    background:whitesmoke;
+}
+
+.carousel{
+    border-radius: 10px;
+}
+
+
 .somos,
 .hacemos,
 .services,
@@ -13,8 +23,13 @@
 .services:hover,
 .toner:hover,
 .pedido:hover {
-    background-color: tomato;
+    background-color: #1d3557;
     border-radius: 3px;
+    text-decoration: antiquewhite;
     
 }
 
+.footer {
+    background-color: #1d3557;
+    height: 200px;
+}
