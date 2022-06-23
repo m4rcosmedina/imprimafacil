@@ -23,7 +23,7 @@
 .services:hover,
 .toner:hover,
 .pedido:hover {
-    background-color: #1d3557;
+    background-color:tomato;
     border-radius: 3px;
     text-decoration: antiquewhite;
     
@@ -31,5 +31,9 @@
 
 .footer {
     background-color: #1d3557;
-    height: 200px;
+    height: 18rem;
+    
+}
+.carousel{
+    border-radius: 10px;
 }
