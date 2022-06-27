@@ -1,11 +1,16 @@
 .fondoBody{
 
-    background:whitesmoke;
+    background:white;
 }
 
 .carousel{
     border-radius: 10px;
 }
+
+.bgNavbar {
+    background-color: #1d3557;
+}
+
 
 
 .somos,
@@ -23,7 +28,7 @@
 .services:hover,
 .toner:hover,
 .pedido:hover {
-    background-color:tomato;
+    background-color:red;
     border-radius: 3px;
     text-decoration: antiquewhite;
     
@@ -37,3 +42,4 @@
 .carousel{
     border-radius: 10px;
 }
+
