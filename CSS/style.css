@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .fondoBody{
 
     background:white;
@@ -39,7 +43,25 @@
     height: 18rem;
     
 }
-.carousel{
-    border-radius: 10px;
+.container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
+.imagenCarousel {
+    width: 100%;
+    border-radius: 15px; 
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+.textFooter {
+    font-size:20vw;
+}
+
+.card {
+    border-radius: 15px; 
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+
+}
