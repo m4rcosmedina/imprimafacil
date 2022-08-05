@@ -33,22 +33,25 @@
         class="d-inline-block align-text-top my-3"
     /></a>
   </div>
-  <nav class="navbar navbar-expand-lg text-center bgNavbar ">
+  <nav class="navbar navbar-expand-lg text-center bgNavbar py-4">
  
       <button
-        class="navbar-toggler mx-auto mb-4  hamburguesa"
+      style="background-color: aliceblue;"
+
+        class="navbar-toggler  mx-auto mb-4 hamburguesa "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="Toggle navigation "
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon" ></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown"  
+      >
         <ul class="navbar-nav  mx-auto">
-          <li class="nav-item toner ">
+          <li class="nav-item toner">
             <a class="nav-link active text-center text-light" aria-current="page" href="#cardToner"> TONER & CARTUCHOS</a>
           </li>
           <li class="nav-item services">
@@ -61,10 +64,10 @@
 
           </li>
           <li class="nav-item somos">
-            <a class="nav-link active text-center text-light" href="#">ENVIOS</a>
+            <a class="nav-link active text-center text-light" href="#envios">ENVIOS</a>
 
           <li class="nav-item somos">
-            <a class="nav-link active text-center text-light" href="#">¿QUIÉNES SOMOS?</a>
+            <a class="nav-link active text-center text-light" href="#somos">¿QUIÉNES SOMOS?</a>
           </li>
         </ul>
       </div>
@@ -118,17 +121,17 @@
 
     <div class="container text-center card-group"> 
       <div class="row mx-auto">
-        <h3 class="text-center m-3">NUESTROS SERVICIOS <hr></h3>
+        <h3 class="text-center m-3">NUESTROS SERVICIOS </h3><hr>
         <div class="col-sm-12 col-lg-6 p-4 mx-auto">
           <div class="card text-center" style="max-width: 90vw">
-            <h4 class="card-title m-2" >TONER & CARTUCHOS ALTERNATIVOS <hr></h4>
+            <h4 class="card-title m-2" id="cardToner" >TONER & CARTUCHOS ALTERNATIVOS <hr></h4>
 
             <img
               src="..//resources/img/VARIOS/pexels-it-services-eu-7639358.jpg"
               class="card-img-top w-100"
               alt="imagen cartucho"
             />
-            <div class="card-body" id="cardToner">
+            <div class="card-body" >
               <p class="card-text">
               Los toner y cartuchos alternativos,son la solución a los tiempos actuales: costos de impresión mas bajos, con un rendimiento óptimo.<br>Calidad excepcional, por una décima parte de un insumo original.<br> Consulte por el modelo compatible con su impresora en el formulario, o directamente escribiendo al WhatsApp. 
               </p>
@@ -138,14 +141,14 @@
         </div>
         <div class="col-sm-12 col-lg-6 p-4 mx-auto">          
           <div class="card text-center" style="max-width: 90vw">
-            <h4 class="card-title m-2" >SERVICE INTEGRAL <hr></h4>
+            <h4 class="card-title m-2" id="cardService" >SERVICE INTEGRAL <hr></h4>
 
             <img
               src="../resources/img/VARIOS/ana-rivarola-Y46ySeB6n8A-unsplash.jpg"
               class="card-img-top w-100"
               alt="imagen service"
             />
-            <div class="card-body" id="cardService">
+            <div class="card-body" >
               <p class="card-text">
               Nos especializamos en los services de impresoras láser.<br> La mayoria pueden volver a ponerse en servicio por una parte infima de lo que saldria un nuevo equipo.
               En imprimaFácil creemos que siempre hay otra oportunidad para una máquina que ha trabajado duro. <br>
@@ -159,11 +162,11 @@
     </div>
    
 <!-- plano -->
-    <div class="card mb-3 text-center m-auto" style="max-width: 65vw;">
+    <div class="card mb-3 text-center m-auto" style="max-width: 80vw;">
       <div class="row g-0">
         <div class="col-sm-12">
             <div class="card-body mx-auto">
-              <h3 class="card-title ">ENVIOS GRATUITOS EN SMT & YERBA BUENA</h3>
+              <h3 class="card-title" id="envios">ENVIOS GRATUITOS EN SMT & YERBA BUENA</h3>
               <p class="card-text">No necesitas moverte de la ofi.<hr>
                 </p>
             </div>
@@ -173,9 +176,9 @@
     </div>
      <!-- texto quienes somos -->
      <div class="container-fluid mb-5">
-      <div class="card my-5 text-center mx-auto" style="max-width: 65vw">
+      <div class="card my-5 text-center mx-auto" style="max-width: 80vw">
         <div class="card-body">
-          <h3 class="card-title">¿QUIENES SOMOS? <hr></h3>
+          <h3 class="card-title" id="somos">¿QUIENES SOMOS? <hr></h3>
           <p class="card-text">
             Somos una empresa basada en San Miguel de Tucumán, que provee soluciones de impresión a empresas y particulares.
             Hace mas de 15 años que ofrecemos servicios hechos a medida para cada usuario.
@@ -208,7 +211,7 @@
       <div class=" col col-sm-6 py-4 mx-4 ">
         <a href="index.html"><img src="../resources/img/LOGOS/1.png"  alt="" style="max-width: 12vw;"> </a>
       </div>
-      <div class=" col col-sm-6 col-md-4 col-lg-4 py-4 text-center">
+      <div class=" col col-sm-6 col-md-4 col-lg-4 py-7 text-center">
         <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active  text-light textFooter" href="index.html">INICIO</a>
@@ -223,7 +226,7 @@
             <a class="nav-link text-light textFooter"target="_blank" href="https://api.whatsapp.com/send?phone=5493814808587&text=Hola,%20te hago una consulta!" >WHATSAPP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light textFooter" href="pages/contacto.html">ENVIAR UN CORREO</a>
+            <!-- <a class="nav-link text-light textFooter" href="pages/contacto.html">ENVIAR UN CORREO</a> -->
           </li>
         </ul>
       </div>
